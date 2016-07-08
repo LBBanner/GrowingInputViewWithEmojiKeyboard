@@ -1,0 +1,608 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6C4BF0441D2FD6940054F6BF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C4BF0431D2FD6940054F6BF /* main.m */; };
+		6C4BF0471D2FD6940054F6BF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C4BF0461D2FD6940054F6BF /* AppDelegate.m */; };
+		6C4BF04A1D2FD6940054F6BF /* ViewControllerDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C4BF0491D2FD6940054F6BF /* ViewControllerDemo.m */; };
+		6C4BF04D1D2FD6940054F6BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C4BF04B1D2FD6940054F6BF /* Main.storyboard */; };
+		6C4BF04F1D2FD6940054F6BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C4BF04E1D2FD6940054F6BF /* Assets.xcassets */; };
+		6C4BF0521D2FD6940054F6BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C4BF0501D2FD6940054F6BF /* LaunchScreen.storyboard */; };
+		6C4BF05D1D2FD6950054F6BF /* EmojiKeyboardAndInputViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C4BF05C1D2FD6950054F6BF /* EmojiKeyboardAndInputViewTests.m */; };
+		6C4BF0681D2FD6950054F6BF /* EmojiKeyboardAndInputViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C4BF0671D2FD6950054F6BF /* EmojiKeyboardAndInputViewUITests.m */; };
+		6C4BF0A31D2FEA0F0054F6BF /* AGEmojiKeyBoardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C4BF0971D2FEA0F0054F6BF /* AGEmojiKeyBoardView.m */; };
+		6C4BF0A41D2FEA0F0054F6BF /* AGEmojiPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C4BF0991D2FEA0F0054F6BF /* AGEmojiPageView.m */; };
+		6C4BF0A51D2FEA0F0054F6BF /* GrowingInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C4BF09C1D2FEA0F0054F6BF /* GrowingInputView.m */; };
+		6C4BF0A61D2FEA0F0054F6BF /* GrowingInputView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6C4BF09D1D2FEA0F0054F6BF /* GrowingInputView.xib */; };
+		6C4BF0A71D2FEA0F0054F6BF /* HPGrowingTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C4BF0A01D2FEA0F0054F6BF /* HPGrowingTextView.m */; };
+		6C4BF0A81D2FEA0F0054F6BF /* HPTextViewInternal.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C4BF0A21D2FEA0F0054F6BF /* HPTextViewInternal.m */; };
+		6C4BF0AD1D2FEA5F0054F6BF /* EmojisList2.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6C4BF0AA1D2FEA5F0054F6BF /* EmojisList2.plist */; };
+		6C4BF0AE1D2FEA5F0054F6BF /* 表情.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C4BF0AB1D2FEA5F0054F6BF /* 表情.png */; };
+		6C4BF0AF1D2FEA5F0054F6BF /* 键盘.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C4BF0AC1D2FEA5F0054F6BF /* 键盘.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6C4BF0591D2FD6950054F6BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6C4BF0371D2FD6940054F6BF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6C4BF03E1D2FD6940054F6BF;
+			remoteInfo = EmojiKeyboardAndInputView;
+		};
+		6C4BF0641D2FD6950054F6BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6C4BF0371D2FD6940054F6BF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6C4BF03E1D2FD6940054F6BF;
+			remoteInfo = EmojiKeyboardAndInputView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6C4BF03F1D2FD6940054F6BF /* EmojiKeyboardAndInputView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EmojiKeyboardAndInputView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C4BF0431D2FD6940054F6BF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6C4BF0451D2FD6940054F6BF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6C4BF0461D2FD6940054F6BF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6C4BF0481D2FD6940054F6BF /* ViewControllerDemo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewControllerDemo.h; sourceTree = "<group>"; };
+		6C4BF0491D2FD6940054F6BF /* ViewControllerDemo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewControllerDemo.m; sourceTree = "<group>"; };
+		6C4BF04C1D2FD6940054F6BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6C4BF04E1D2FD6940054F6BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6C4BF0511D2FD6940054F6BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6C4BF0531D2FD6940054F6BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C4BF0581D2FD6950054F6BF /* EmojiKeyboardAndInputViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EmojiKeyboardAndInputViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C4BF05C1D2FD6950054F6BF /* EmojiKeyboardAndInputViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EmojiKeyboardAndInputViewTests.m; sourceTree = "<group>"; };
+		6C4BF05E1D2FD6950054F6BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C4BF0631D2FD6950054F6BF /* EmojiKeyboardAndInputViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EmojiKeyboardAndInputViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C4BF0671D2FD6950054F6BF /* EmojiKeyboardAndInputViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EmojiKeyboardAndInputViewUITests.m; sourceTree = "<group>"; };
+		6C4BF0691D2FD6950054F6BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C4BF0961D2FEA0F0054F6BF /* AGEmojiKeyBoardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGEmojiKeyBoardView.h; sourceTree = "<group>"; };
+		6C4BF0971D2FEA0F0054F6BF /* AGEmojiKeyBoardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGEmojiKeyBoardView.m; sourceTree = "<group>"; };
+		6C4BF0981D2FEA0F0054F6BF /* AGEmojiPageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGEmojiPageView.h; sourceTree = "<group>"; };
+		6C4BF0991D2FEA0F0054F6BF /* AGEmojiPageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGEmojiPageView.m; sourceTree = "<group>"; };
+		6C4BF09B1D2FEA0F0054F6BF /* GrowingInputView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrowingInputView.h; sourceTree = "<group>"; };
+		6C4BF09C1D2FEA0F0054F6BF /* GrowingInputView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrowingInputView.m; sourceTree = "<group>"; };
+		6C4BF09D1D2FEA0F0054F6BF /* GrowingInputView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GrowingInputView.xib; sourceTree = "<group>"; };
+		6C4BF09F1D2FEA0F0054F6BF /* HPGrowingTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPGrowingTextView.h; sourceTree = "<group>"; };
+		6C4BF0A01D2FEA0F0054F6BF /* HPGrowingTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPGrowingTextView.m; sourceTree = "<group>"; };
+		6C4BF0A11D2FEA0F0054F6BF /* HPTextViewInternal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPTextViewInternal.h; sourceTree = "<group>"; };
+		6C4BF0A21D2FEA0F0054F6BF /* HPTextViewInternal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPTextViewInternal.m; sourceTree = "<group>"; };
+		6C4BF0AA1D2FEA5F0054F6BF /* EmojisList2.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = EmojisList2.plist; sourceTree = "<group>"; };
+		6C4BF0AB1D2FEA5F0054F6BF /* 表情.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "表情.png"; sourceTree = "<group>"; };
+		6C4BF0AC1D2FEA5F0054F6BF /* 键盘.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "键盘.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6C4BF03C1D2FD6940054F6BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C4BF0551D2FD6950054F6BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C4BF0601D2FD6950054F6BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6C4BF0361D2FD6940054F6BF = {
+			isa = PBXGroup;
+			children = (
+				6C4BF0411D2FD6940054F6BF /* EmojiKeyboardAndInputView */,
+				6C4BF05B1D2FD6950054F6BF /* EmojiKeyboardAndInputViewTests */,
+				6C4BF0661D2FD6950054F6BF /* EmojiKeyboardAndInputViewUITests */,
+				6C4BF0401D2FD6940054F6BF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6C4BF0401D2FD6940054F6BF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6C4BF03F1D2FD6940054F6BF /* EmojiKeyboardAndInputView.app */,
+				6C4BF0581D2FD6950054F6BF /* EmojiKeyboardAndInputViewTests.xctest */,
+				6C4BF0631D2FD6950054F6BF /* EmojiKeyboardAndInputViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6C4BF0411D2FD6940054F6BF /* EmojiKeyboardAndInputView */ = {
+			isa = PBXGroup;
+			children = (
+				6C4BF0451D2FD6940054F6BF /* AppDelegate.h */,
+				6C4BF0461D2FD6940054F6BF /* AppDelegate.m */,
+				6C4BF0481D2FD6940054F6BF /* ViewControllerDemo.h */,
+				6C4BF0491D2FD6940054F6BF /* ViewControllerDemo.m */,
+				6C4BF04B1D2FD6940054F6BF /* Main.storyboard */,
+				6C4BF0941D2FEA0F0054F6BF /* GrowingInputViewWithEmojiKeyboard */,
+				6C4BF04E1D2FD6940054F6BF /* Assets.xcassets */,
+				6C4BF0501D2FD6940054F6BF /* LaunchScreen.storyboard */,
+				6C4BF0531D2FD6940054F6BF /* Info.plist */,
+				6C4BF0421D2FD6940054F6BF /* Supporting Files */,
+			);
+			path = EmojiKeyboardAndInputView;
+			sourceTree = "<group>";
+		};
+		6C4BF0421D2FD6940054F6BF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6C4BF0431D2FD6940054F6BF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6C4BF05B1D2FD6950054F6BF /* EmojiKeyboardAndInputViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				6C4BF05C1D2FD6950054F6BF /* EmojiKeyboardAndInputViewTests.m */,
+				6C4BF05E1D2FD6950054F6BF /* Info.plist */,
+			);
+			path = EmojiKeyboardAndInputViewTests;
+			sourceTree = "<group>";
+		};
+		6C4BF0661D2FD6950054F6BF /* EmojiKeyboardAndInputViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6C4BF0671D2FD6950054F6BF /* EmojiKeyboardAndInputViewUITests.m */,
+				6C4BF0691D2FD6950054F6BF /* Info.plist */,
+			);
+			path = EmojiKeyboardAndInputViewUITests;
+			sourceTree = "<group>";
+		};
+		6C4BF0941D2FEA0F0054F6BF /* GrowingInputViewWithEmojiKeyboard */ = {
+			isa = PBXGroup;
+			children = (
+				6C4BF0A91D2FEA5F0054F6BF /* Resource */,
+				6C4BF0951D2FEA0F0054F6BF /* AGEmojiKeyboard */,
+				6C4BF09A1D2FEA0F0054F6BF /* GrowingInput */,
+				6C4BF09E1D2FEA0F0054F6BF /* HPGrowingTextView */,
+			);
+			path = GrowingInputViewWithEmojiKeyboard;
+			sourceTree = "<group>";
+		};
+		6C4BF0951D2FEA0F0054F6BF /* AGEmojiKeyboard */ = {
+			isa = PBXGroup;
+			children = (
+				6C4BF0961D2FEA0F0054F6BF /* AGEmojiKeyBoardView.h */,
+				6C4BF0971D2FEA0F0054F6BF /* AGEmojiKeyBoardView.m */,
+				6C4BF0981D2FEA0F0054F6BF /* AGEmojiPageView.h */,
+				6C4BF0991D2FEA0F0054F6BF /* AGEmojiPageView.m */,
+			);
+			path = AGEmojiKeyboard;
+			sourceTree = "<group>";
+		};
+		6C4BF09A1D2FEA0F0054F6BF /* GrowingInput */ = {
+			isa = PBXGroup;
+			children = (
+				6C4BF09B1D2FEA0F0054F6BF /* GrowingInputView.h */,
+				6C4BF09C1D2FEA0F0054F6BF /* GrowingInputView.m */,
+				6C4BF09D1D2FEA0F0054F6BF /* GrowingInputView.xib */,
+			);
+			path = GrowingInput;
+			sourceTree = "<group>";
+		};
+		6C4BF09E1D2FEA0F0054F6BF /* HPGrowingTextView */ = {
+			isa = PBXGroup;
+			children = (
+				6C4BF09F1D2FEA0F0054F6BF /* HPGrowingTextView.h */,
+				6C4BF0A01D2FEA0F0054F6BF /* HPGrowingTextView.m */,
+				6C4BF0A11D2FEA0F0054F6BF /* HPTextViewInternal.h */,
+				6C4BF0A21D2FEA0F0054F6BF /* HPTextViewInternal.m */,
+			);
+			path = HPGrowingTextView;
+			sourceTree = "<group>";
+		};
+		6C4BF0A91D2FEA5F0054F6BF /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				6C4BF0AA1D2FEA5F0054F6BF /* EmojisList2.plist */,
+				6C4BF0AB1D2FEA5F0054F6BF /* 表情.png */,
+				6C4BF0AC1D2FEA5F0054F6BF /* 键盘.png */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6C4BF03E1D2FD6940054F6BF /* EmojiKeyboardAndInputView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C4BF06C1D2FD6950054F6BF /* Build configuration list for PBXNativeTarget "EmojiKeyboardAndInputView" */;
+			buildPhases = (
+				6C4BF03B1D2FD6940054F6BF /* Sources */,
+				6C4BF03C1D2FD6940054F6BF /* Frameworks */,
+				6C4BF03D1D2FD6940054F6BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EmojiKeyboardAndInputView;
+			productName = EmojiKeyboardAndInputView;
+			productReference = 6C4BF03F1D2FD6940054F6BF /* EmojiKeyboardAndInputView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6C4BF0571D2FD6950054F6BF /* EmojiKeyboardAndInputViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C4BF06F1D2FD6950054F6BF /* Build configuration list for PBXNativeTarget "EmojiKeyboardAndInputViewTests" */;
+			buildPhases = (
+				6C4BF0541D2FD6950054F6BF /* Sources */,
+				6C4BF0551D2FD6950054F6BF /* Frameworks */,
+				6C4BF0561D2FD6950054F6BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6C4BF05A1D2FD6950054F6BF /* PBXTargetDependency */,
+			);
+			name = EmojiKeyboardAndInputViewTests;
+			productName = EmojiKeyboardAndInputViewTests;
+			productReference = 6C4BF0581D2FD6950054F6BF /* EmojiKeyboardAndInputViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6C4BF0621D2FD6950054F6BF /* EmojiKeyboardAndInputViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C4BF0721D2FD6950054F6BF /* Build configuration list for PBXNativeTarget "EmojiKeyboardAndInputViewUITests" */;
+			buildPhases = (
+				6C4BF05F1D2FD6950054F6BF /* Sources */,
+				6C4BF0601D2FD6950054F6BF /* Frameworks */,
+				6C4BF0611D2FD6950054F6BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6C4BF0651D2FD6950054F6BF /* PBXTargetDependency */,
+			);
+			name = EmojiKeyboardAndInputViewUITests;
+			productName = EmojiKeyboardAndInputViewUITests;
+			productReference = 6C4BF0631D2FD6950054F6BF /* EmojiKeyboardAndInputViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6C4BF0371D2FD6940054F6BF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = CoderXu;
+				TargetAttributes = {
+					6C4BF03E1D2FD6940054F6BF = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = T59W99K34W;
+					};
+					6C4BF0571D2FD6950054F6BF = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = T59W99K34W;
+						TestTargetID = 6C4BF03E1D2FD6940054F6BF;
+					};
+					6C4BF0621D2FD6950054F6BF = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = T59W99K34W;
+						TestTargetID = 6C4BF03E1D2FD6940054F6BF;
+					};
+				};
+			};
+			buildConfigurationList = 6C4BF03A1D2FD6940054F6BF /* Build configuration list for PBXProject "EmojiKeyboardAndInputView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6C4BF0361D2FD6940054F6BF;
+			productRefGroup = 6C4BF0401D2FD6940054F6BF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6C4BF03E1D2FD6940054F6BF /* EmojiKeyboardAndInputView */,
+				6C4BF0571D2FD6950054F6BF /* EmojiKeyboardAndInputViewTests */,
+				6C4BF0621D2FD6950054F6BF /* EmojiKeyboardAndInputViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6C4BF03D1D2FD6940054F6BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C4BF0521D2FD6940054F6BF /* LaunchScreen.storyboard in Resources */,
+				6C4BF0A61D2FEA0F0054F6BF /* GrowingInputView.xib in Resources */,
+				6C4BF0AE1D2FEA5F0054F6BF /* 表情.png in Resources */,
+				6C4BF0AF1D2FEA5F0054F6BF /* 键盘.png in Resources */,
+				6C4BF04F1D2FD6940054F6BF /* Assets.xcassets in Resources */,
+				6C4BF0AD1D2FEA5F0054F6BF /* EmojisList2.plist in Resources */,
+				6C4BF04D1D2FD6940054F6BF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C4BF0561D2FD6950054F6BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C4BF0611D2FD6950054F6BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6C4BF03B1D2FD6940054F6BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C4BF0A41D2FEA0F0054F6BF /* AGEmojiPageView.m in Sources */,
+				6C4BF0A31D2FEA0F0054F6BF /* AGEmojiKeyBoardView.m in Sources */,
+				6C4BF0A71D2FEA0F0054F6BF /* HPGrowingTextView.m in Sources */,
+				6C4BF04A1D2FD6940054F6BF /* ViewControllerDemo.m in Sources */,
+				6C4BF0A81D2FEA0F0054F6BF /* HPTextViewInternal.m in Sources */,
+				6C4BF0A51D2FEA0F0054F6BF /* GrowingInputView.m in Sources */,
+				6C4BF0471D2FD6940054F6BF /* AppDelegate.m in Sources */,
+				6C4BF0441D2FD6940054F6BF /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C4BF0541D2FD6950054F6BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C4BF05D1D2FD6950054F6BF /* EmojiKeyboardAndInputViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C4BF05F1D2FD6950054F6BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C4BF0681D2FD6950054F6BF /* EmojiKeyboardAndInputViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6C4BF05A1D2FD6950054F6BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6C4BF03E1D2FD6940054F6BF /* EmojiKeyboardAndInputView */;
+			targetProxy = 6C4BF0591D2FD6950054F6BF /* PBXContainerItemProxy */;
+		};
+		6C4BF0651D2FD6950054F6BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6C4BF03E1D2FD6940054F6BF /* EmojiKeyboardAndInputView */;
+			targetProxy = 6C4BF0641D2FD6950054F6BF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6C4BF04B1D2FD6940054F6BF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6C4BF04C1D2FD6940054F6BF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6C4BF0501D2FD6940054F6BF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6C4BF0511D2FD6940054F6BF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6C4BF06A1D2FD6950054F6BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6C4BF06B1D2FD6950054F6BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6C4BF06D1D2FD6950054F6BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EmojiKeyboardAndInputView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bai.EmojiKeyboardAndInputView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6C4BF06E1D2FD6950054F6BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EmojiKeyboardAndInputView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bai.EmojiKeyboardAndInputView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6C4BF0701D2FD6950054F6BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = EmojiKeyboardAndInputViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bai.EmojiKeyboardAndInputViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EmojiKeyboardAndInputView.app/EmojiKeyboardAndInputView";
+			};
+			name = Debug;
+		};
+		6C4BF0711D2FD6950054F6BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = EmojiKeyboardAndInputViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bai.EmojiKeyboardAndInputViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EmojiKeyboardAndInputView.app/EmojiKeyboardAndInputView";
+			};
+			name = Release;
+		};
+		6C4BF0731D2FD6950054F6BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = EmojiKeyboardAndInputViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bai.EmojiKeyboardAndInputViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = EmojiKeyboardAndInputView;
+			};
+			name = Debug;
+		};
+		6C4BF0741D2FD6950054F6BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = EmojiKeyboardAndInputViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bai.EmojiKeyboardAndInputViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = EmojiKeyboardAndInputView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6C4BF03A1D2FD6940054F6BF /* Build configuration list for PBXProject "EmojiKeyboardAndInputView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C4BF06A1D2FD6950054F6BF /* Debug */,
+				6C4BF06B1D2FD6950054F6BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C4BF06C1D2FD6950054F6BF /* Build configuration list for PBXNativeTarget "EmojiKeyboardAndInputView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C4BF06D1D2FD6950054F6BF /* Debug */,
+				6C4BF06E1D2FD6950054F6BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6C4BF06F1D2FD6950054F6BF /* Build configuration list for PBXNativeTarget "EmojiKeyboardAndInputViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C4BF0701D2FD6950054F6BF /* Debug */,
+				6C4BF0711D2FD6950054F6BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6C4BF0721D2FD6950054F6BF /* Build configuration list for PBXNativeTarget "EmojiKeyboardAndInputViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C4BF0731D2FD6950054F6BF /* Debug */,
+				6C4BF0741D2FD6950054F6BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6C4BF0371D2FD6940054F6BF /* Project object */;
+}
